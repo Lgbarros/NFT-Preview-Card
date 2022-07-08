@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+p {
+    color: hsl(215, 32%, 27%);
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+span {
+    color: #FFF;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 60px;
+    margin-left: 38%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 25%;
+    height: 100%;
+    border-radius: 15px;
+    display: block;
+}
+
+.title {
+    font-weight: 600;
+    color: white;
+    margin-left: 10%;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    margin-left: 10%;
+}
+
+.line {
+    color: hsl(215, 32%, 27%);
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.ethereum {
+    width: 3%;
+    display: inline-block;
+    align-items: center;
+}
+
+.clock {
+    width: 5%;
+    display: inline-block;
+}
+
+.avatar {
+    width: 7%;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #FFF;
+}
+
+.rodape {
+    margin-left: 10%;
+}
+
+/*Footer/Rodapé*/
+.attribution {
+    font-size: 12px; 
+    text-align: center; 
+    color: white;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
