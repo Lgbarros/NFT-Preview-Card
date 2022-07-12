@@ -12,6 +12,11 @@ p {
     margin-right: 10%;
 }
 
+.container {
+    position: relative;
+    width: 100%;
+}
+
 img {
     width: 80%;
     margin: auto;
@@ -19,9 +24,35 @@ img {
     border-radius: 10px;
 }
 
-.nft:hover {
-    background-color: hsl(178, 100%, 50%);
+.overlay {
+    background-color: hsla(178, 100%, 50%, 0.253);
+    position: absolute;
     cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    right: 0;
+    height: 100%;
+    border-radius: 10px;
+    width: 80%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.img-container {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.container:hover .overlay{
+    opacity: 1;
 }
 
 span {
@@ -115,7 +146,7 @@ footer a {
     color: hsl(228, 45%, 44%); 
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
     .card {
         background-color: hsl(216, 50%, 16%);
         margin: 0 auto;
