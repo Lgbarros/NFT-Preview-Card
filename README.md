@@ -24,7 +24,7 @@ NFT é a sigla para non-fungible token, ou token não-fungível. “Token” é 
 Para visualização do projeto, pode-se conferir no link do GitHub Pages: https://lgbarros.github.io/NFT-Preview-Card/
 ##
 ##
-## NFT Preview Card - EN
+# NFT Preview Card - EN
 
 Single page for displaying an NFT Card, where the card's title, image, author, description, values ​​and expiration time are informed
 
